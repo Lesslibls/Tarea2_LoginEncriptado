@@ -1,0 +1,22 @@
+Link: https://github.com/Lesslibls/Tarea2_LoginEncriptado.git
+_______________________________________________________________________________________________
+Descripción: 
+
+-----------------------------------------------------------------------------------------------
+Pasos...
+
+Paso 1 crear 📂carpetas bakend y frontend
+Paso 2 en consola💻: cd bakend --> para entrar
+Paso 3 preparar el entorno🖱️ de Node.js --> npm init -y
+Paso 4 Instalar los paquetes📦 necesarios
+    npm install express mongoose bcrypt-nodejs dotenv cors
+    npm install nodemon --save-dev
+        -express: Para crear el servidor web.
+        -mongoose: Para conectarnos a la base de datos de MongoDB.
+        -bcrypt-nodejs: Para encriptar las contraseñas de los usuarios.
+        -dotenv: Para gestionar las variables de entorno, como la URL de la base de datos.
+        -cors: Para permitir que nuestra aplicación de React se comunique con el servidor de Node.js.
+        -nodemon: Para que el servidor se reinicie automáticamente cada vez que hagamos un cambio.
+
+Paso 5 crear archivo📋 principal llamado server.js
+✨Paso 6 para correr el proyecto, ejecutar: npx nodemon server.js en consola
